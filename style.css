@@ -12,7 +12,7 @@ body {
 }
 
 header {
-      opacity: 90%;
+      opacity: 100%;
       width: 100%;
       height: 100vh;
       background-color: #000;
@@ -91,12 +91,16 @@ nav ul li a:hover {
       display: none;
 }
 
+
 /* hero section */
 
 .banner {
-      background:url(assets/memory.jpg);
+      background:url(assets/gameralta.png);
       width: 100%;
-      height: 70vh;
+      height: 80vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      
 }
 
 .banner-content {
@@ -107,6 +111,7 @@ nav ul li a:hover {
 }
 
 .banner-content span {
+      color: white;
       padding-top: 20px;
       font-size: 80px;
       font-weight: 600;
@@ -114,6 +119,7 @@ nav ul li a:hover {
 }
 
 .banner-content h1 {
+      color: white;
       margin-bottom: 10px;
       font-size: 30px;
       padding-bottom: 30px;
@@ -154,6 +160,31 @@ nav ul li a:hover {
       color: black;
 }
 
+.banner-content input {
+      text-decoration: none;
+      margin-right: 20px;
+      padding: 20px 60px;
+      background-color: rgba(0, 0, 0, 0);
+      border: 3px solid #fff;
+       font-size: 18px;
+       font-weight: 600;
+       letter-spacing: 2px;
+       color: white;
+}
+
+.banner-content ::placeholder {
+      color: White;
+}
+.banner-content ::placeholder:hover {
+      color: black;
+}
+
+/* termina el hero-banner */
+
+/* Comienzan los componentes de la tienda */
+
+
+
 /* responsive config */
 
 @media(max-width: 786px) {
@@ -162,6 +193,7 @@ nav ul li a:hover {
             position: fixed;
             top: 0;
             margin-top: 16px;
+            padding-bottom: 10px;
       }
 
       nav ul {
@@ -180,7 +212,7 @@ nav ul li a:hover {
       nav ul li {
             box-sizing: border-box;
             width: 100%;
-            padding: 24px;
+            padding: 10px;
             text-align: center;
       }
 
@@ -188,4 +220,52 @@ nav ul li a:hover {
             display: block;
       }
 
+       .banner-content span {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+          align-items: center;
+          font-size: 40px;
+            font-weight: 600;
+      }
+
+      .banner-content h1 {
+            font-size: 15px;
+            text-align: center;
+      }
+
+      .banner-content .btn-one {
+          display: none;
+       }
+
+       .banner-content .btn-two {
+            display: none;
+       }
+
+       .banner-content a {
+            text-decoration: none;
+            margin-right: 20px;
+      }
+      .banner-content {
+            color: white;
+            width: 55%;
+            padding-top: 170px;
+            padding-left: 100px;
+      }
+
+      .banner-content input {
+            text-decoration: none;
+            margin-right: 20px;
+            padding: 20px 20px;
+            background-color: rgba(0, 0, 0, 0);
+            border: 3px solid #fff;
+             font-size: 18px;
+             font-weight: 600;
+             letter-spacing: 2px;
+             color: white;
+             align-items: center;
+      }
+
 }
+
+
