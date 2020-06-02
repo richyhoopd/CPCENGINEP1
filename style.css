@@ -285,6 +285,42 @@ nav ul li a:hover {
 
 /* responsive config */
 
+@media(max-width: 1800px) {
+      .carousel-item {
+            align-items: center;
+                justify-content: center;
+            position:relative;
+            display:block;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 850px;
+            height: 800px;
+            margin-right: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 450ms all;
+            padding-bottom: 30px;
+          }
+          
+          .carousel-item__img {
+                align-items: center;
+                justify-content: center;
+            width: 850px;
+            height: 800px;
+            -o-object-fit: cover;
+               object-fit: cover;
+               position:absolute;
+
+        display:block;
+
+        bottom:10px;
+
+        left:-10px;
+
+
+          }
+}
+
 @media(max-width: 950px) {
       .carousel-item {
             align-items: center;
